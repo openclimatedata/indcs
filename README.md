@@ -11,9 +11,9 @@ INDCs are downloaded from the
 
 ## Preparation
 
-Click back and forth to get a full list of submitted INDCs. The saved HTML file
-is scraped to generate a JSON file with links and submissions dates and to
-download all INDCs and accompanying files.
+Click forward and back in the INDC portal to get a full list of submitted INDCs.
+The saved HTML file is scraped to generate a JSON file with links and submissions
+dates and to download all INDCs and accompanying files.
 
 Python3 and the libraries in `scripts/requirements.txt` are used.
 
