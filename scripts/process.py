@@ -13,7 +13,7 @@ import json
 import os
 import re
 
-from urllib.parse import unquote
+from urllib.parse import quote, unquote
 
 import pandas as pd
 
@@ -69,12 +69,14 @@ for row in rows:
             code = "VCT"
         if party == "Bosnia-Herzegovina":
             code = "BIH"
+    print(party, code)
     name = country_codes[country_codes.country_code == code].index.values[0]
     submission_date = cells[1].text.strip()
     submissions = cells[2].findAll("a")
     files = []
     for submission in submissions:
-        url = submission.attrs['href']
+        url = "http://www4.unfccc.int" + quote(submission.attrs['href'])
+        print(url)
         # unquote for Algerie accent, remove multiple spaces
         filename = re.sub(
             " +",

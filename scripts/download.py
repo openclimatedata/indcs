@@ -11,7 +11,7 @@
 
 import json
 import os
-import urllib
+import urllib.request
 
 
 path = os.path.dirname(os.path.realpath(__file__))
@@ -27,5 +27,5 @@ for submission in indcs:
     for item in submission["files"]:
         filename = item["filename"]
         url = item["url"]
-        print "Fetching", filename
-        urllib.urlretrieve(url, os.path.join(directory, filename))
+        print("Fetching: ", filename)
+        urllib.request.urlretrieve(url, os.path.join(directory, filename))

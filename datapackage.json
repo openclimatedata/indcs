@@ -1,1044 +1,1049 @@
 {
+  "description": "INDCs are downloaded from the INDC portal and a JSON list with files and submissions dates is created.",
+  "resources": [
+    {
+      "format": "json",
+      "name": "INDCs",
+      "mediatype": "text/json",
+      "path": "data/indcs.json"
+    },
+    {
+      "format": "pdf",
+      "name": "DPRK-INDC by 2030.pdf",
+      "path": "data/Democratic People's Republic of Korea/DPRK-INDC by 2030.pdf"
+    },
+    {
+      "format": "xps",
+      "name": "Resubmission of INDCs for Sri Lanka.xps",
+      "path": "data/Sri Lanka/Resubmission of INDCs for Sri Lanka.xps"
+    },
+    {
+      "format": "pdf",
+      "name": "Panama_NDC.pdf",
+      "path": "data/Panama/Panama_NDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Panama_NDC letter.pdf",
+      "path": "data/Panama/Panama_NDC letter.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Nepal_INDC_08Feb_2016.pdf",
+      "path": "data/Nepal/Nepal_INDC_08Feb_2016.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Malaysia Final 27 November 2015 Revised Final UNFCCC.pdf",
+      "path": "data/Malaysia/INDC Malaysia Final 27 November 2015 Revised Final UNFCCC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Chile INDC FINAL.pdf",
+      "path": "data/Chile/Chile INDC FINAL.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Chile english version.pdf",
+      "path": "data/Chile/INDC Chile english version.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Venezuela Diciembre 2015 (final).pdf",
+      "path": "data/Venezuela (Bolivarian Republic of)/Venezuela Diciembre 2015 (final).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "St. Kitts and Nevis INDC.pdf",
+      "path": "data/Saint Kitts and Nevis/St. Kitts and Nevis INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Tonga INDC.pdf",
+      "path": "data/Tonga/Tonga INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Rwanda INDC_UNFCCC letter_pdf.pdf",
+      "path": "data/Rwanda/Rwanda INDC_UNFCCC letter_pdf.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Rwanda_Nov.2015.pdf",
+      "path": "data/Rwanda/INDC_Rwanda_Nov.2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Brunei Darussalam INDC_FINAL_30 November 2015.pdf",
+      "path": "data/Brunei Darussalam/Brunei Darussalam INDC_FINAL_30 November 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Angola deposito.pdf",
+      "path": "data/Angola/INDC Angola deposito.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Palau_INDC.Final Copy.pdf",
+      "path": "data/Palau/Palau_INDC.Final Copy.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Approved Nigeria's INDC_271115.pdf",
+      "path": "data/Nigeria/Approved Nigeria's INDC_271115.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Executive Summary_Nigerian INDC_271115.pdf",
+      "path": "data/Nigeria/Executive Summary_Nigerian INDC_271115.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "TUVALU INDC.pdf",
+      "path": "data/Tuvalu/TUVALU INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Jamaica's INDC_2015-11-25.pdf",
+      "path": "data/Jamaica/Jamaica's INDC_2015-11-25.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Niue INDC Final.pdf",
+      "path": "data/Niue/Niue INDC Final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "NZ INDC Addendum 25 11 2015.pdf",
+      "path": "data/New Zealand/NZ INDC Addendum 25 11 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "New Zealand INDC 2015.pdf",
+      "path": "data/New Zealand/New Zealand INDC 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Kuwait_Nov2015.pdf",
+      "path": "data/Kuwait/INDC_Kuwait_Nov2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Kuwait_INDCs_English_Version.pdf",
+      "path": "data/Kuwait/Kuwait_INDCs_English_Version.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Kingdom_of_Bahrain.pdf",
+      "path": "data/Bahrain/INDC_Kingdom_of_Bahrain.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Federated States of MICRONESIA.pdf",
+      "path": "data/Micronesia (Federated States of)/INDC Federated States of MICRONESIA.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Yemen INDC 21 Nov. 2015.pdf",
+      "path": "data/Yemen/Yemen INDC 21 Nov. 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Republic of Cuba-INDCs-Nov2015.pdf",
+      "path": "data/Cuba/Republic of Cuba-INDCs-Nov2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Samoa INDC_Submission to UNFCCC.pdf",
+      "path": "data/Samoa/Samoa INDC_Submission to UNFCCC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "South Sudan Intended Nationally Determined Contribution.pdf",
+      "path": "data/South Sudan/South Sudan Intended Nationally Determined Contribution.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Guyana's revised iNDC - Final.pdf",
+      "path": "data/Guyana/Guyana's revised iNDC - Final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Iran Final Text.pdf",
+      "path": "data/Iran (Islamic Republic of)/INDC Iran Final Text.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Qatar INDCs Report -English.pdf",
+      "path": "data/Qatar/Qatar INDCs Report -English.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Qatar INDCs Report - Arabic.pdf",
+      "path": "data/Qatar/Qatar INDCs Report - Arabic.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Cook Islands INDCsFINAL7Nov.pdf",
+      "path": "data/Cook Islands/Cook Islands INDCsFINAL7Nov.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Saint Lucia's INDC 18th November 2015.pdf",
+      "path": "data/Saint Lucia/Saint Lucia's INDC 18th November 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "SVG_INDC_Final.pdf",
+      "path": "data/Saint Vincent and the Grenadines/SVG_INDC_Final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Bahamas INDC Submission.pdf",
+      "path": "data/Bahamas/Bahamas INDC Submission.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Somalia's INDCs.pdf",
+      "path": "data/Somalia/Somalia's INDCs.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Nauru INDC Submission_Final.pdf",
+      "path": "data/Nauru/Nauru INDC Submission_Final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "EL SALVADOR-INTENDED NATIONALLY DETERMINED CONTRIBUTION.pdf",
+      "path": "data/El Salvador/EL SALVADOR-INTENDED NATIONALLY DETERMINED CONTRIBUTION.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Egyptian INDC.pdf",
+      "path": "data/Egypt/Egyptian INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-Iraq.pdf",
+      "path": "data/Iraq/INDC-Iraq.pdf"
+    },
+    {
+      "format": "doc",
+      "name": "Pakistan INDC.doc",
+      "path": "data/Pakistan/Pakistan INDC.doc"
+    },
+    {
+      "format": "pdf",
+      "name": "28Oct15-Sudan INDC.pdf",
+      "path": "data/Sudan/28Oct15-Sudan INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "KSA-INDCs English.pdf",
+      "path": "data/Saudi Arabia/KSA-INDCs English.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "KSA-INDCs Arabic.pdf",
+      "path": "data/Saudi Arabia/KSA-INDCs Arabic.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "FIJI_iNDC_Final_051115.pdf",
+      "path": "data/Fiji/FIJI_iNDC_Final_051115.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Burundi_INDC-english version.pdf",
+      "path": "data/Burundi/Burundi_INDC-english version.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN BURUNDI.pdf",
+      "path": "data/Burundi/CPDN BURUNDI.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Uganda final 14 October 2015, minor correction,28.10.15.pdf",
+      "path": "data/Uganda/INDC Uganda final 14 October 2015, minor correction,28.10.15.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-Djibouti_ENG.pdf",
+      "path": "data/Djibouti/INDC-Djibouti_ENG.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN Djibouti_9 - CPDN - Format pour soumission CCNUCC.pdf",
+      "path": "data/Djibouti/CPDN Djibouti_9 - CPDN - Format pour soumission CCNUCC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-2-Suriname 300915.pdf",
+      "path": "data/Suriname/INDC-2-Suriname 300915.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Burkina_ENG. version_finale.pdf",
+      "path": "data/Burkina Faso/INDC Burkina_ENG. version_finale.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC BURKINA FASO 280915.pdf",
+      "path": "data/Burkina Faso/INDC BURKINA FASO 280915.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "UAE INDC - 22 October.pdf",
+      "path": "data/United Arab Emirates/UAE INDC - 22 October.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN _TOGO.pdf",
+      "path": "data/Togo/CPDN _TOGO.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Togo_english version.pdf",
+      "path": "data/Togo/INDC Togo_english version.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Trinidad and Tobago Final INDC.pdf",
+      "path": "data/Trinidad and Tobago/Trinidad and Tobago Final INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Niger-INDC-versionfinale .pdf",
+      "path": "data/Niger/Niger-INDC-versionfinale .pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Niger-INDC-final_Eng_20151020162516_65260.pdf",
+      "path": "data/Niger/Niger-INDC-final_Eng_20151020162516_65260.pdf"
+    },
+    {
+      "format": "docx",
+      "name": "INDC_Guinea_english_version UNFCCC_20151016170448_232956.docx",
+      "path": "data/Guinea/INDC_Guinea_english_version UNFCCC_20151016170448_232956.docx"
+    },
+    {
+      "format": "docx",
+      "name": "15 09 29 INDC_Guinee_version finale CCNUCCSK.docx",
+      "path": "data/Guinea/15 09 29 INDC_Guinee_version finale CCNUCCSK.docx"
+    },
+    {
+      "format": "pdf",
+      "name": "OMAN INDCs.pdf",
+      "path": "data/Oman/OMAN INDCs.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Antigua_Barbuda.pdf",
+      "path": "data/Antigua and Barbuda/INDC_Antigua_Barbuda.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_AFG_Paper_En_20150927_.docx FINAL.pdf",
+      "path": "data/Afghanistan/INDC_AFG_Paper_En_20150927_.docx FINAL.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Ecuador INDC 01-10-2015 - english unofficial translation.pdf",
+      "path": "data/Ecuador/Ecuador INDC 01-10-2015 - english unofficial translation.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Ecuador INDC 01-10-2015.pdf",
+      "path": "data/Ecuador/Ecuador INDC 01-10-2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "ESTADO PLURINACIONAL DE BOLIVIA1.pdf",
+      "path": "data/Bolivia (Plurinational State of)/ESTADO PLURINACIONAL DE BOLIVIA1.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-Bolivia-english.pdf",
+      "path": "data/Bolivia (Plurinational State of)/INDC-Bolivia-english.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Bosnia and Herzegovina.pdf",
+      "path": "data/Bosnia and Herzegovina/INDC Bosnia and Herzegovina.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "MALAWI INDC SUBMITTED TO UNFCCC REV pdf.pdf",
+      "path": "data/Malawi/MALAWI INDC SUBMITTED TO UNFCCC REV pdf.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Argentina.pdf",
+      "path": "data/Argentina/INDC Argentina.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Argentina INDC Non-Official Translation.pdf",
+      "path": "data/Argentina/Argentina INDC Non-Official Translation.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "MOZ_INDC_Final_Version.pdf",
+      "path": "data/Mozambique/MOZ_INDC_Final_Version.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDIA INDC TO UNFCCC.pdf",
+      "path": "data/India/INDIA INDC TO UNFCCC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Belize INDCS.pdf",
+      "path": "data/Belize/Belize INDCS.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Algeria - INDC (English unofficial translation) September 03,2015.pdf",
+      "path": "data/Algeria/Algeria - INDC (English unofficial translation) September 03,2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Algérie -INDC- 03 septembre 2015.pdf",
+      "path": "data/Algeria/Algérie -INDC- 03 septembre 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Documento INDC Paraguay 01-10-15.pdf",
+      "path": "data/Paraguay/Documento INDC Paraguay 01-10-15.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "BOTSWANA.pdf",
+      "path": "data/Botswana/BOTSWANA.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Chad_Official version_English.pdf",
+      "path": "data/Chad/INDC Chad_Official version_English.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN TCHAD Version officielle 28 sept 2015.pdf",
+      "path": "data/Chad/CPDN TCHAD Version officielle 28 sept 2015.pdf"
+    },
+    {
+      "format": "docx",
+      "name": "- SIERRA LEONE INDC.docx",
+      "path": "data/Sierra Leone/- SIERRA LEONE INDC.docx"
+    },
+    {
+      "format": "doc",
+      "name": "Sierra Leone INDC Submission to UNFCCC Secretariat 01102015.doc",
+      "path": "data/Sierra Leone/Sierra Leone INDC Submission to UNFCCC Secretariat 01102015.doc"
+    },
+    {
+      "format": "pdf",
+      "name": "Honduras INDC_esp.pdf",
+      "path": "data/Honduras/Honduras INDC_esp.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Thailand_INDC.pdf",
+      "path": "data/Thailand/Thailand_INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Lao PDR INDC.pdf",
+      "path": "data/Lao People's Democratic Republic/Lao PDR INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Cover letter for submission of Lao PDR INDC.pdf",
+      "path": "data/Lao People's Democratic Republic/Cover letter for submission of Lao PDR INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Transmittal letter to UNFCCC_PHL INDC Submission.pdf",
+      "path": "data/Philippines/Transmittal letter to UNFCCC_PHL INDC Submission.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Philippines - Final INDC submission.pdf",
+      "path": "data/Philippines/Philippines - Final INDC submission.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Lettre officielle CPDN Cameroun.pdf",
+      "path": "data/Cameroon/Lettre officielle CPDN Cameroun.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN CMR Final.pdf",
+      "path": "data/Cameroon/CPDN CMR Final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "SAN MARINO INDC EN.pdf",
+      "path": "data/San Marino/SAN MARINO INDC EN.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "The_INDC_of_TURKEY_v.15.19.30.pdf",
+      "path": "data/Turkey/The_INDC_of_TURKEY_v.15.19.30.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "PNG_INDC to the UNFCCC.pdf",
+      "path": "data/Papua New Guinea/PNG_INDC to the UNFCCC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "The INDC OF THE GAMBIA.pdf",
+      "path": "data/Gambia/The INDC OF THE GAMBIA.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Liberia_INDC Submission.002.pdf",
+      "path": "data/Liberia/Liberia_INDC Submission.002.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Final Submission Sept 30 2015.002.pdf",
+      "path": "data/Liberia/INDC Final Submission Sept 30 2015.002.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-TJK final RUS 21 сент.pdf",
+      "path": "data/Tajikistan/INDC-TJK final RUS 21 сент.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-TJK final ENG.pdf",
+      "path": "data/Tajikistan/INDC-TJK final ENG.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Lesotho's INDC Report - September 2015.pdf",
+      "path": "data/Lesotho/Lesotho's INDC Report - September 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Cambodia's INDC to the UNFCCC.pdf",
+      "path": "data/Cambodia/Cambodia's INDC to the UNFCCC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Bhutan-INDC-20150930.pdf",
+      "path": "data/Bhutan/Bhutan-INDC-20150930.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Costa Rica Version 2 0 final ES.pdf",
+      "path": "data/Costa Rica/INDC Costa Rica Version 2 0 final ES.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Costa Rica Version 2 0 final ENG.pdf",
+      "path": "data/Costa Rica/INDC Costa Rica Version 2 0 final ENG.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Zimbabwe Intended Nationally Determined Contribution 2015.pdf",
+      "path": "data/Zimbabwe/Zimbabwe Intended Nationally Determined Contribution 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Turkmenistan.pdf",
+      "path": "data/Turkmenistan/INDC_Turkmenistan.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "SOLOMON ISLANDS INDC.pdf",
+      "path": "data/Solomon Islands/SOLOMON ISLANDS INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Jordan INDCs Final.pdf",
+      "path": "data/Jordan/Jordan INDCs Final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Cabo_Verde_INDC_.pdf",
+      "path": "data/Cabo Verde/Cabo_Verde_INDC_.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Grenada INDC.pdf",
+      "path": "data/Grenada/Grenada INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Barbados INDC FINAL September 28, 2015.pdf",
+      "path": "data/Barbados/Barbados INDC FINAL September 28, 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "VIETNAM'S INDC.pdf",
+      "path": "data/Viet Nam/VIETNAM'S INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC MAURITANIA.pdf",
+      "path": "data/Mauritania/INDC MAURITANIA.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "GUINEA-BISSAU_INDC_Version to the UNFCCC (eng).pdf",
+      "path": "data/Guinea/GUINEA-BISSAU_INDC_Version to the UNFCCC (eng).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Document_INDC_CI_22092015.pdf",
+      "path": "data/Côte d'Ivoire/Document_INDC_CI_22092015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC BENIN Version finale revue septembre 2015.pdf",
+      "path": "data/Benin/INDC BENIN Version finale revue septembre 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Republic of Lebanon - INDC - September 2015.pdf",
+      "path": "data/Lebanon/Republic of Lebanon - INDC - September 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "150930_Ukraine_INDC.pdf",
+      "path": "data/Ukraine/150930_Ukraine_INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN_Republique d'Haiti.pdf",
+      "path": "data/Haiti/CPDN_Republique d'Haiti.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Short_STP_INDC _Ingles_30.09.pdf",
+      "path": "data/Sao Tome and Principe/Short_STP_INDC _Ingles_30.09.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Gobierno de Guatemala INDC-UNFCCC Sept 2015.pdf",
+      "path": "data/Guatemala/Gobierno de Guatemala INDC-UNFCCC Sept 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Israel INDC.pdf",
+      "path": "data/Israel/Israel INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Commonwealth of Dominica- Intended Nationally Determined Contributions (INDC).pdf",
+      "path": "data/Dominica/Commonwealth of Dominica- Intended Nationally Determined Contributions (INDC).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Congo_RAPPORT.pdf",
+      "path": "data/Congo/INDC_Congo_RAPPORT.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Azerbaijan.pdf",
+      "path": "data/Azerbaijan/INDC Azerbaijan.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDCs_The United Republic of Tanzania.pdf",
+      "path": "data/United Republic of Tanzania/INDCs_The United Republic of Tanzania.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Swaziland's INDC.pdf",
+      "path": "data/Swaziland/Swaziland's INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "FINAL+ZAMBIA'S+INDC_1.pdf",
+      "path": "data/Zambia/FINAL+ZAMBIA'S+INDC_1.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC of Namibia Final pdf.pdf",
+      "path": "data/Namibia/INDC of Namibia Final pdf.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Uruguay español.pdf",
+      "path": "data/Uruguay/INDC Uruguay español.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Uruguay (English-unofficial translation).pdf",
+      "path": "data/Uruguay/INDC Uruguay (English-unofficial translation).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Verbal_note.pdf",
+      "path": "data/Kyrgyzstan/Verbal_note.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Kyrgyzstan INDC _ENG_ final.pdf",
+      "path": "data/Kyrgyzstan/Kyrgyzstan INDC _ENG_ final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Kyrgyzstan INDC_RUS_final.pdf",
+      "path": "data/Kyrgyzstan/Kyrgyzstan INDC_RUS_final.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-Armenia.pdf",
+      "path": "data/Armenia/INDC-Armenia.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN_MALI_VFsegal.pdf",
+      "path": "data/Mali/CPDN_MALI_VFsegal.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "VANUATU INDC UNFCCC Submission.pdf",
+      "path": "data/Vanuatu/VANUATU INDC UNFCCC Submission.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "iNDC Perú castellano.pdf",
+      "path": "data/Peru/iNDC Perú castellano.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "iNDC Perú english.pdf",
+      "path": "data/Peru/iNDC Perú english.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Kz_eng.pdf",
+      "path": "data/Kazakhstan/INDC Kz_eng.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Maldives INDC .pdf",
+      "path": "data/Maldives/Maldives INDC .pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Myanmar's INDC.pdf",
+      "path": "data/Myanmar/Myanmar's INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Final INDC for Mauritius 28 Sept 2015.pdf",
+      "path": "data/Mauritius/Final INDC for Mauritius 28 Sept 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "BRAZIL iNDC english FINAL.pdf",
+      "path": "data/Brazil/BRAZIL iNDC english FINAL.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN_République Centrafricaine.pdf",
+      "path": "data/Central African Republic/CPDN_République Centrafricaine.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN_République Centrafricaine_EN.pdf",
+      "path": "data/Central African Republic/CPDN_République Centrafricaine_EN.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN - Sénégal.pdf",
+      "path": "data/Senegal/CPDN - Sénégal.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_KIRIBATI.pdf",
+      "path": "data/Kiribati/INDC_KIRIBATI.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Republic_of_Moldova_25.09.2015.pdf",
+      "path": "data/Republic of Moldova/INDC_Republic_of_Moldova_25.09.2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "South Africa.pdf",
+      "path": "data/South Africa/South Africa.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Belarus.pdf",
+      "path": "data/Belarus/Belarus.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Belarus_INDC_Rus_25.09.2015.pdf",
+      "path": "data/Belarus/Belarus_INDC_Rus_25.09.2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Belarus_INDC_Eng_25.09.2015.pdf",
+      "path": "data/Belarus/Belarus_INDC_Eng_25.09.2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_of_Georgia.pdf",
+      "path": "data/Georgia/INDC_of_Georgia.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC of Seychelles.pdf",
+      "path": "data/Seychelles/INDC of Seychelles.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_2015_of_Bangladesh.pdf",
+      "path": "data/Bangladesh/INDC_2015_of_Bangladesh.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "ERITREA'S INDC REPORT SEP2015.pdf",
+      "path": "data/Eritrea/ERITREA'S INDC REPORT SEP2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "150924_INDCs of Mongolia.pdf",
+      "path": "data/Mongolia/150924_INDCs of Mongolia.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_REPUBLIC OF INDONESIA.pdf",
+      "path": "data/Indonesia/INDC_REPUBLIC OF INDONESIA.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Madagascar INDC Eng.pdf",
+      "path": "data/Madagascar/Madagascar INDC Eng.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Madagascar INDC(1).pdf",
+      "path": "data/Madagascar/Madagascar INDC(1).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Albania_INDC_submission (1).pdf",
+      "path": "data/Albania/Albania_INDC_submission (1).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "GH_INDC_2392015.pdf",
+      "path": "data/Ghana/GH_INDC_2392015.pdf"
+    },
+    {
+      "format": "docx",
+      "name": "INDCSubmission_ Montenegro.docx",
+      "path": "data/Montenegro/INDCSubmission_ Montenegro.docx"
+    },
+    {
+      "format": "doc",
+      "name": "República de Guinea Ecuatorial_INDC.doc",
+      "path": "data/Equatorial Guinea/República de Guinea Ecuatorial_INDC.doc"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC_Comores_Version_Francaise.pdf",
+      "path": "data/Comoros/INDC_Comores_Version_Francaise.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Tunisie VF 5 aout Valid.pdf",
+      "path": "data/Tunisia/INDC Tunisie VF 5 aout Valid.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-Tunisia-English Version.pdf",
+      "path": "data/Tunisia/INDC-Tunisia-English Version.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Colombia.pdf",
+      "path": "data/Colombia/INDC Colombia.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Colombia iNDC Unofficial translation Eng.pdf",
+      "path": "data/Colombia/Colombia iNDC Unofficial translation Eng.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-RD Agosto 2015 (español).pdf",
+      "path": "data/Dominican Republic/INDC-RD Agosto 2015 (español).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-DR August 2015 (unofficial translation).pdf",
+      "path": "data/Dominican Republic/INDC-DR August 2015 (unofficial translation).pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN - Rép Dém du Congo.pdf",
+      "path": "data/Democratic Republic of the Congo/CPDN - Rép Dém du Congo.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Australias Intended Nationally Determined Contribution to a new Climate Change Agreement - August 2015.pdf",
+      "path": "data/Australia/Australias Intended Nationally Determined Contribution to a new Climate Change Agreement - August 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Submission_Republic_of_Macedonia_20150805144001_135181.pdf",
+      "path": "data/The former Yugoslav Republic of Macedonia/Submission_Republic_of_Macedonia_20150805144001_135181.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Macedonia_Cover letter.pdf",
+      "path": "data/The former Yugoslav Republic of Macedonia/Macedonia_Cover letter.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Contribution nationale Monaco.pdf",
+      "path": "data/Monaco/Contribution nationale Monaco.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Monaco_INDC.pdf",
+      "path": "data/Monaco/Monaco_INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Kenya_INDC_20150723.pdf",
+      "path": "data/Kenya/Kenya_INDC_20150723.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "150721 RMI INDC JULY 2015 FINAL SUBMITTED.pdf",
+      "path": "data/Marshall Islands/150721 RMI INDC JULY 2015 FINAL SUBMITTED.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "20150717_Japan's INDC.pdf",
+      "path": "data/Japan/20150717_Japan's INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Singapore INDC.pdf",
+      "path": "data/Singapore/Singapore INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC Submission by the Republic of Korea on June 30.pdf",
+      "path": "data/Republic of Korea/INDC Submission by the Republic of Korea on June 30.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "China's INDC - on 30 June 2015.pdf",
+      "path": "data/China/China's INDC - on 30 June 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-ICELAND.pdf",
+      "path": "data/Iceland/INDC-ICELAND.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Republic_of_Serbia.pdf",
+      "path": "data/Serbia/Republic_of_Serbia.pdf"
+    },
+    {
+      "format": "docx",
+      "name": "Cover_letter_Serbia.docx",
+      "path": "data/Serbia/Cover_letter_Serbia.docx"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC-Ethiopia-100615.pdf",
+      "path": "data/Ethiopia/INDC-Ethiopia-100615.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Morocco INDC submitted to UNFCCC - 5 june 2015.pdf",
+      "path": "data/Morocco/Morocco INDC submitted to UNFCCC - 5 june 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Maroc CPDN soumise à la CCNUCC - 5 juin 2015.pdf",
+      "path": "data/Morocco/Maroc CPDN soumise à la CCNUCC - 5 juin 2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "INDC - Canada - English.pdf",
+      "path": "data/Canada/INDC - Canada - English.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "CPDN - Canada - Français.pdf",
+      "path": "data/Canada/CPDN - Canada - Français.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Andorra INDC-CPDN.pdf",
+      "path": "data/Andorra/Andorra INDC-CPDN.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "150422_INDC_FL.pdf",
+      "path": "data/Liechtenstein/150422_INDC_FL.pdf"
+    },
+    {
+      "format": "doc",
+      "name": "Russian Submission INDC_rus.doc",
+      "path": "data/Russian Federation/Russian Submission INDC_rus.doc"
+    },
+    {
+      "format": "doc",
+      "name": "Russian Submission INDC_eng_rev1.doc",
+      "path": "data/Russian Federation/Russian Submission INDC_eng_rev1.doc"
+    },
+    {
+      "format": "pdf",
+      "name": "20150331 INDC Gabon.pdf",
+      "path": "data/Gabon/20150331 INDC Gabon.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "U.S. Cover Note INDC and Accompanying Information.pdf",
+      "path": "data/United States of America/U.S. Cover Note INDC and Accompanying Information.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "MEXICO INDC 03.30.2015.pdf",
+      "path": "data/Mexico/MEXICO INDC 03.30.2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "Norway INDC 26MAR2015.pdf",
+      "path": "data/Norway/Norway INDC 26MAR2015.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "LV-03-06-EU INDC.pdf",
+      "path": "data/European Union/LV-03-06-EU INDC.pdf"
+    },
+    {
+      "format": "pdf",
+      "name": "15 02 27_INDC Contribution of Switzerland.pdf",
+      "path": "data/Switzerland/15 02 27_INDC Contribution of Switzerland.pdf"
+    }
+  ],
+  "title": "Intended Nationally Determined Contributions (INDCs)",
   "sources": [
     {
       "name": "UNFCCC website with INDCs as submitted by Parties",
       "web": "http://www4.unfccc.int/submissions/indc/Submission%20Pages/submissions.aspx"
     }
   ],
-  "resources": [
-    {
-      "name": "INDCs",
-      "format": "json",
-      "path": "data/indcs.json",
-      "mediatype": "text/json"
-    },
-    {
-      "name": "Resubmission of INDCs for Sri Lanka.xps",
-      "format": "xps",
-      "path": "data/Sri Lanka/Resubmission of INDCs for Sri Lanka.xps"
-    },
-    {
-      "name": "Panama_NDC.pdf",
-      "format": "pdf",
-      "path": "data/Panama/Panama_NDC.pdf"
-    },
-    {
-      "name": "Panama_NDC letter.pdf",
-      "format": "pdf",
-      "path": "data/Panama/Panama_NDC letter.pdf"
-    },
-    {
-      "name": "Nepal_INDC_08Feb_2016.pdf",
-      "format": "pdf",
-      "path": "data/Nepal/Nepal_INDC_08Feb_2016.pdf"
-    },
-    {
-      "name": "INDC Malaysia Final 27 November 2015 Revised Final UNFCCC.pdf",
-      "format": "pdf",
-      "path": "data/Malaysia/INDC Malaysia Final 27 November 2015 Revised Final UNFCCC.pdf"
-    },
-    {
-      "name": "Chile INDC FINAL.pdf",
-      "format": "pdf",
-      "path": "data/Chile/Chile INDC FINAL.pdf"
-    },
-    {
-      "name": "INDC Chile english version.pdf",
-      "format": "pdf",
-      "path": "data/Chile/INDC Chile english version.pdf"
-    },
-    {
-      "name": "Venezuela Diciembre 2015 (final).pdf",
-      "format": "pdf",
-      "path": "data/Venezuela (Bolivarian Republic of)/Venezuela Diciembre 2015 (final).pdf"
-    },
-    {
-      "name": "St. Kitts and Nevis INDC.pdf",
-      "format": "pdf",
-      "path": "data/Saint Kitts and Nevis/St. Kitts and Nevis INDC.pdf"
-    },
-    {
-      "name": "Tonga INDC.pdf",
-      "format": "pdf",
-      "path": "data/Tonga/Tonga INDC.pdf"
-    },
-    {
-      "name": "Rwanda INDC_UNFCCC letter_pdf.pdf",
-      "format": "pdf",
-      "path": "data/Rwanda/Rwanda INDC_UNFCCC letter_pdf.pdf"
-    },
-    {
-      "name": "INDC_Rwanda_Nov.2015.pdf",
-      "format": "pdf",
-      "path": "data/Rwanda/INDC_Rwanda_Nov.2015.pdf"
-    },
-    {
-      "name": "Brunei Darussalam INDC_FINAL_30 November 2015.pdf",
-      "format": "pdf",
-      "path": "data/Brunei Darussalam/Brunei Darussalam INDC_FINAL_30 November 2015.pdf"
-    },
-    {
-      "name": "INDC Angola deposito.pdf",
-      "format": "pdf",
-      "path": "data/Angola/INDC Angola deposito.pdf"
-    },
-    {
-      "name": "Palau_INDC.Final Copy.pdf",
-      "format": "pdf",
-      "path": "data/Palau/Palau_INDC.Final Copy.pdf"
-    },
-    {
-      "name": "Approved Nigeria's INDC_271115.pdf",
-      "format": "pdf",
-      "path": "data/Nigeria/Approved Nigeria's INDC_271115.pdf"
-    },
-    {
-      "name": "Executive Summary_Nigerian INDC_271115.pdf",
-      "format": "pdf",
-      "path": "data/Nigeria/Executive Summary_Nigerian INDC_271115.pdf"
-    },
-    {
-      "name": "TUVALU INDC.pdf",
-      "format": "pdf",
-      "path": "data/Tuvalu/TUVALU INDC.pdf"
-    },
-    {
-      "name": "Jamaica's INDC_2015-11-25.pdf",
-      "format": "pdf",
-      "path": "data/Jamaica/Jamaica's INDC_2015-11-25.pdf"
-    },
-    {
-      "name": "Niue INDC Final.pdf",
-      "format": "pdf",
-      "path": "data/Niue/Niue INDC Final.pdf"
-    },
-    {
-      "name": "NZ INDC Addendum 25 11 2015.pdf",
-      "format": "pdf",
-      "path": "data/New Zealand/NZ INDC Addendum 25 11 2015.pdf"
-    },
-    {
-      "name": "New Zealand INDC 2015.pdf",
-      "format": "pdf",
-      "path": "data/New Zealand/New Zealand INDC 2015.pdf"
-    },
-    {
-      "name": "INDC_Kuwait_Nov2015.pdf",
-      "format": "pdf",
-      "path": "data/Kuwait/INDC_Kuwait_Nov2015.pdf"
-    },
-    {
-      "name": "Kuwait_INDCs_English_Version.pdf",
-      "format": "pdf",
-      "path": "data/Kuwait/Kuwait_INDCs_English_Version.pdf"
-    },
-    {
-      "name": "INDC_Kingdom_of_Bahrain.pdf",
-      "format": "pdf",
-      "path": "data/Bahrain/INDC_Kingdom_of_Bahrain.pdf"
-    },
-    {
-      "name": "INDC Federated States of MICRONESIA.pdf",
-      "format": "pdf",
-      "path": "data/Micronesia (Federated States of)/INDC Federated States of MICRONESIA.pdf"
-    },
-    {
-      "name": "Yemen INDC 21 Nov. 2015.pdf",
-      "format": "pdf",
-      "path": "data/Yemen/Yemen INDC 21 Nov. 2015.pdf"
-    },
-    {
-      "name": "Republic of Cuba-INDCs-Nov2015.pdf",
-      "format": "pdf",
-      "path": "data/Cuba/Republic of Cuba-INDCs-Nov2015.pdf"
-    },
-    {
-      "name": "Samoa INDC_Submission to UNFCCC.pdf",
-      "format": "pdf",
-      "path": "data/Samoa/Samoa INDC_Submission to UNFCCC.pdf"
-    },
-    {
-      "name": "South Sudan Intended Nationally Determined Contribution.pdf",
-      "format": "pdf",
-      "path": "data/South Sudan/South Sudan Intended Nationally Determined Contribution.pdf"
-    },
-    {
-      "name": "Guyana's revised iNDC - Final.pdf",
-      "format": "pdf",
-      "path": "data/Guyana/Guyana's revised iNDC - Final.pdf"
-    },
-    {
-      "name": "INDC Iran Final Text.pdf",
-      "format": "pdf",
-      "path": "data/Iran (Islamic Republic of)/INDC Iran Final Text.pdf"
-    },
-    {
-      "name": "Qatar INDCs Report -English.pdf",
-      "format": "pdf",
-      "path": "data/Qatar/Qatar INDCs Report -English.pdf"
-    },
-    {
-      "name": "Qatar INDCs Report - Arabic.pdf",
-      "format": "pdf",
-      "path": "data/Qatar/Qatar INDCs Report - Arabic.pdf"
-    },
-    {
-      "name": "Cook Islands INDCsFINAL7Nov.pdf",
-      "format": "pdf",
-      "path": "data/Cook Islands/Cook Islands INDCsFINAL7Nov.pdf"
-    },
-    {
-      "name": "Saint Lucia's INDC 18th November 2015.pdf",
-      "format": "pdf",
-      "path": "data/Saint Lucia/Saint Lucia's INDC 18th November 2015.pdf"
-    },
-    {
-      "name": "SVG_INDC_Final.pdf",
-      "format": "pdf",
-      "path": "data/Saint Vincent and the Grenadines/SVG_INDC_Final.pdf"
-    },
-    {
-      "name": "Bahamas INDC Submission.pdf",
-      "format": "pdf",
-      "path": "data/Bahamas/Bahamas INDC Submission.pdf"
-    },
-    {
-      "name": "Somalia's INDCs.pdf",
-      "format": "pdf",
-      "path": "data/Somalia/Somalia's INDCs.pdf"
-    },
-    {
-      "name": "Nauru INDC Submission_Final.pdf",
-      "format": "pdf",
-      "path": "data/Nauru/Nauru INDC Submission_Final.pdf"
-    },
-    {
-      "name": "EL SALVADOR-INTENDED NATIONALLY DETERMINED CONTRIBUTION.pdf",
-      "format": "pdf",
-      "path": "data/El Salvador/EL SALVADOR-INTENDED NATIONALLY DETERMINED CONTRIBUTION.pdf"
-    },
-    {
-      "name": "Egyptian INDC.pdf",
-      "format": "pdf",
-      "path": "data/Egypt/Egyptian INDC.pdf"
-    },
-    {
-      "name": "INDC-Iraq.pdf",
-      "format": "pdf",
-      "path": "data/Iraq/INDC-Iraq.pdf"
-    },
-    {
-      "name": "Pakistan INDC.doc",
-      "format": "doc",
-      "path": "data/Pakistan/Pakistan INDC.doc"
-    },
-    {
-      "name": "28Oct15-Sudan INDC.pdf",
-      "format": "pdf",
-      "path": "data/Sudan/28Oct15-Sudan INDC.pdf"
-    },
-    {
-      "name": "KSA-INDCs English.pdf",
-      "format": "pdf",
-      "path": "data/Saudi Arabia/KSA-INDCs English.pdf"
-    },
-    {
-      "name": "KSA-INDCs Arabic.pdf",
-      "format": "pdf",
-      "path": "data/Saudi Arabia/KSA-INDCs Arabic.pdf"
-    },
-    {
-      "name": "FIJI_iNDC_Final_051115.pdf",
-      "format": "pdf",
-      "path": "data/Fiji/FIJI_iNDC_Final_051115.pdf"
-    },
-    {
-      "name": "Burundi_INDC-english version.pdf",
-      "format": "pdf",
-      "path": "data/Burundi/Burundi_INDC-english version.pdf"
-    },
-    {
-      "name": "CPDN BURUNDI.pdf",
-      "format": "pdf",
-      "path": "data/Burundi/CPDN BURUNDI.pdf"
-    },
-    {
-      "name": "INDC Uganda final 14 October 2015, minor correction,28.10.15.pdf",
-      "format": "pdf",
-      "path": "data/Uganda/INDC Uganda final 14 October 2015, minor correction,28.10.15.pdf"
-    },
-    {
-      "name": "INDC-Djibouti_ENG.pdf",
-      "format": "pdf",
-      "path": "data/Djibouti/INDC-Djibouti_ENG.pdf"
-    },
-    {
-      "name": "CPDN Djibouti_9 - CPDN - Format pour soumission CCNUCC.pdf",
-      "format": "pdf",
-      "path": "data/Djibouti/CPDN Djibouti_9 - CPDN - Format pour soumission CCNUCC.pdf"
-    },
-    {
-      "name": "INDC-2-Suriname 300915.pdf",
-      "format": "pdf",
-      "path": "data/Suriname/INDC-2-Suriname 300915.pdf"
-    },
-    {
-      "name": "INDC Burkina_ENG. version_finale.pdf",
-      "format": "pdf",
-      "path": "data/Burkina Faso/INDC Burkina_ENG. version_finale.pdf"
-    },
-    {
-      "name": "INDC BURKINA FASO 280915.pdf",
-      "format": "pdf",
-      "path": "data/Burkina Faso/INDC BURKINA FASO 280915.pdf"
-    },
-    {
-      "name": "UAE INDC - 22 October.pdf",
-      "format": "pdf",
-      "path": "data/United Arab Emirates/UAE INDC - 22 October.pdf"
-    },
-    {
-      "name": "CPDN _TOGO.pdf",
-      "format": "pdf",
-      "path": "data/Togo/CPDN _TOGO.pdf"
-    },
-    {
-      "name": "INDC Togo_english version.pdf",
-      "format": "pdf",
-      "path": "data/Togo/INDC Togo_english version.pdf"
-    },
-    {
-      "name": "Trinidad and Tobago Final INDC.pdf",
-      "format": "pdf",
-      "path": "data/Trinidad and Tobago/Trinidad and Tobago Final INDC.pdf"
-    },
-    {
-      "name": "Niger-INDC-versionfinale .pdf",
-      "format": "pdf",
-      "path": "data/Niger/Niger-INDC-versionfinale .pdf"
-    },
-    {
-      "name": "Niger-INDC-final_Eng_20151020162516_65260.pdf",
-      "format": "pdf",
-      "path": "data/Niger/Niger-INDC-final_Eng_20151020162516_65260.pdf"
-    },
-    {
-      "name": "INDC_Guinea_english_version UNFCCC_20151016170448_232956.docx",
-      "format": "docx",
-      "path": "data/Guinea/INDC_Guinea_english_version UNFCCC_20151016170448_232956.docx"
-    },
-    {
-      "name": "15 09 29 INDC_Guinee_version finale CCNUCCSK.docx",
-      "format": "docx",
-      "path": "data/Guinea/15 09 29 INDC_Guinee_version finale CCNUCCSK.docx"
-    },
-    {
-      "name": "OMAN INDCs.pdf",
-      "format": "pdf",
-      "path": "data/Oman/OMAN INDCs.pdf"
-    },
-    {
-      "name": "INDC_Antigua_Barbuda.pdf",
-      "format": "pdf",
-      "path": "data/Antigua and Barbuda/INDC_Antigua_Barbuda.pdf"
-    },
-    {
-      "name": "INDC_AFG_Paper_En_20150927_.docx FINAL.pdf",
-      "format": "pdf",
-      "path": "data/Afghanistan/INDC_AFG_Paper_En_20150927_.docx FINAL.pdf"
-    },
-    {
-      "name": "Ecuador INDC 01-10-2015 - english unofficial translation.pdf",
-      "format": "pdf",
-      "path": "data/Ecuador/Ecuador INDC 01-10-2015 - english unofficial translation.pdf"
-    },
-    {
-      "name": "Ecuador INDC 01-10-2015.pdf",
-      "format": "pdf",
-      "path": "data/Ecuador/Ecuador INDC 01-10-2015.pdf"
-    },
-    {
-      "name": "ESTADO PLURINACIONAL DE BOLIVIA1.pdf",
-      "format": "pdf",
-      "path": "data/Bolivia (Plurinational State of)/ESTADO PLURINACIONAL DE BOLIVIA1.pdf"
-    },
-    {
-      "name": "INDC-Bolivia-english.pdf",
-      "format": "pdf",
-      "path": "data/Bolivia (Plurinational State of)/INDC-Bolivia-english.pdf"
-    },
-    {
-      "name": "INDC Bosnia and Herzegovina.pdf",
-      "format": "pdf",
-      "path": "data/Bosnia and Herzegovina/INDC Bosnia and Herzegovina.pdf"
-    },
-    {
-      "name": "MALAWI INDC SUBMITTED TO UNFCCC REV pdf.pdf",
-      "format": "pdf",
-      "path": "data/Malawi/MALAWI INDC SUBMITTED TO UNFCCC REV pdf.pdf"
-    },
-    {
-      "name": "INDC Argentina.pdf",
-      "format": "pdf",
-      "path": "data/Argentina/INDC Argentina.pdf"
-    },
-    {
-      "name": "Argentina INDC Non-Official Translation.pdf",
-      "format": "pdf",
-      "path": "data/Argentina/Argentina INDC Non-Official Translation.pdf"
-    },
-    {
-      "name": "MOZ_INDC_Final_Version.pdf",
-      "format": "pdf",
-      "path": "data/Mozambique/MOZ_INDC_Final_Version.pdf"
-    },
-    {
-      "name": "INDIA INDC TO UNFCCC.pdf",
-      "format": "pdf",
-      "path": "data/India/INDIA INDC TO UNFCCC.pdf"
-    },
-    {
-      "name": "Belize INDCS.pdf",
-      "format": "pdf",
-      "path": "data/Belize/Belize INDCS.pdf"
-    },
-    {
-      "name": "Algeria - INDC (English unofficial translation) September 03,2015.pdf",
-      "format": "pdf",
-      "path": "data/Algeria/Algeria - INDC (English unofficial translation) September 03,2015.pdf"
-    },
-    {
-      "name": "Algérie -INDC- 03 septembre 2015.pdf",
-      "format": "pdf",
-      "path": "data/Algeria/Algérie -INDC- 03 septembre 2015.pdf"
-    },
-    {
-      "name": "Documento INDC Paraguay 01-10-15.pdf",
-      "format": "pdf",
-      "path": "data/Paraguay/Documento INDC Paraguay 01-10-15.pdf"
-    },
-    {
-      "name": "BOTSWANA.pdf",
-      "format": "pdf",
-      "path": "data/Botswana/BOTSWANA.pdf"
-    },
-    {
-      "name": "INDC Chad_Official version_English.pdf",
-      "format": "pdf",
-      "path": "data/Chad/INDC Chad_Official version_English.pdf"
-    },
-    {
-      "name": "CPDN TCHAD Version officielle 28 sept 2015.pdf",
-      "format": "pdf",
-      "path": "data/Chad/CPDN TCHAD Version officielle 28 sept 2015.pdf"
-    },
-    {
-      "name": "- SIERRA LEONE INDC.docx",
-      "format": "docx",
-      "path": "data/Sierra Leone/- SIERRA LEONE INDC.docx"
-    },
-    {
-      "name": "Sierra Leone INDC Submission to UNFCCC Secretariat 01102015.doc",
-      "format": "doc",
-      "path": "data/Sierra Leone/Sierra Leone INDC Submission to UNFCCC Secretariat 01102015.doc"
-    },
-    {
-      "name": "Honduras INDC_esp.pdf",
-      "format": "pdf",
-      "path": "data/Honduras/Honduras INDC_esp.pdf"
-    },
-    {
-      "name": "Thailand_INDC.pdf",
-      "format": "pdf",
-      "path": "data/Thailand/Thailand_INDC.pdf"
-    },
-    {
-      "name": "Lao PDR INDC.pdf",
-      "format": "pdf",
-      "path": "data/Lao People's Democratic Republic/Lao PDR INDC.pdf"
-    },
-    {
-      "name": "Cover letter for submission of Lao PDR INDC.pdf",
-      "format": "pdf",
-      "path": "data/Lao People's Democratic Republic/Cover letter for submission of Lao PDR INDC.pdf"
-    },
-    {
-      "name": "Transmittal letter to UNFCCC_PHL INDC Submission.pdf",
-      "format": "pdf",
-      "path": "data/Philippines/Transmittal letter to UNFCCC_PHL INDC Submission.pdf"
-    },
-    {
-      "name": "Philippines - Final INDC submission.pdf",
-      "format": "pdf",
-      "path": "data/Philippines/Philippines - Final INDC submission.pdf"
-    },
-    {
-      "name": "Lettre officielle CPDN Cameroun.pdf",
-      "format": "pdf",
-      "path": "data/Cameroon/Lettre officielle CPDN Cameroun.pdf"
-    },
-    {
-      "name": "CPDN CMR Final.pdf",
-      "format": "pdf",
-      "path": "data/Cameroon/CPDN CMR Final.pdf"
-    },
-    {
-      "name": "SAN MARINO INDC EN.pdf",
-      "format": "pdf",
-      "path": "data/San Marino/SAN MARINO INDC EN.pdf"
-    },
-    {
-      "name": "The_INDC_of_TURKEY_v.15.19.30.pdf",
-      "format": "pdf",
-      "path": "data/Turkey/The_INDC_of_TURKEY_v.15.19.30.pdf"
-    },
-    {
-      "name": "PNG_INDC to the UNFCCC.pdf",
-      "format": "pdf",
-      "path": "data/Papua New Guinea/PNG_INDC to the UNFCCC.pdf"
-    },
-    {
-      "name": "The INDC OF THE GAMBIA.pdf",
-      "format": "pdf",
-      "path": "data/Gambia/The INDC OF THE GAMBIA.pdf"
-    },
-    {
-      "name": "Liberia_INDC Submission.002.pdf",
-      "format": "pdf",
-      "path": "data/Liberia/Liberia_INDC Submission.002.pdf"
-    },
-    {
-      "name": "INDC Final Submission Sept 30 2015.002.pdf",
-      "format": "pdf",
-      "path": "data/Liberia/INDC Final Submission Sept 30 2015.002.pdf"
-    },
-    {
-      "name": "INDC-TJK final RUS 21 сент.pdf",
-      "format": "pdf",
-      "path": "data/Tajikistan/INDC-TJK final RUS 21 сент.pdf"
-    },
-    {
-      "name": "INDC-TJK final ENG.pdf",
-      "format": "pdf",
-      "path": "data/Tajikistan/INDC-TJK final ENG.pdf"
-    },
-    {
-      "name": "Lesotho's INDC Report - September 2015.pdf",
-      "format": "pdf",
-      "path": "data/Lesotho/Lesotho's INDC Report - September 2015.pdf"
-    },
-    {
-      "name": "Cambodia's INDC to the UNFCCC.pdf",
-      "format": "pdf",
-      "path": "data/Cambodia/Cambodia's INDC to the UNFCCC.pdf"
-    },
-    {
-      "name": "Bhutan-INDC-20150930.pdf",
-      "format": "pdf",
-      "path": "data/Bhutan/Bhutan-INDC-20150930.pdf"
-    },
-    {
-      "name": "INDC Costa Rica Version 2 0 final ES.pdf",
-      "format": "pdf",
-      "path": "data/Costa Rica/INDC Costa Rica Version 2 0 final ES.pdf"
-    },
-    {
-      "name": "INDC Costa Rica Version 2 0 final ENG.pdf",
-      "format": "pdf",
-      "path": "data/Costa Rica/INDC Costa Rica Version 2 0 final ENG.pdf"
-    },
-    {
-      "name": "Zimbabwe Intended Nationally Determined Contribution 2015.pdf",
-      "format": "pdf",
-      "path": "data/Zimbabwe/Zimbabwe Intended Nationally Determined Contribution 2015.pdf"
-    },
-    {
-      "name": "INDC_Turkmenistan.pdf",
-      "format": "pdf",
-      "path": "data/Turkmenistan/INDC_Turkmenistan.pdf"
-    },
-    {
-      "name": "SOLOMON ISLANDS INDC.pdf",
-      "format": "pdf",
-      "path": "data/Solomon Islands/SOLOMON ISLANDS INDC.pdf"
-    },
-    {
-      "name": "Jordan INDCs Final.pdf",
-      "format": "pdf",
-      "path": "data/Jordan/Jordan INDCs Final.pdf"
-    },
-    {
-      "name": "Cabo_Verde_INDC_.pdf",
-      "format": "pdf",
-      "path": "data/Cabo Verde/Cabo_Verde_INDC_.pdf"
-    },
-    {
-      "name": "Grenada INDC.pdf",
-      "format": "pdf",
-      "path": "data/Grenada/Grenada INDC.pdf"
-    },
-    {
-      "name": "Barbados INDC FINAL September 28, 2015.pdf",
-      "format": "pdf",
-      "path": "data/Barbados/Barbados INDC FINAL September 28, 2015.pdf"
-    },
-    {
-      "name": "VIETNAM'S INDC.pdf",
-      "format": "pdf",
-      "path": "data/Viet Nam/VIETNAM'S INDC.pdf"
-    },
-    {
-      "name": "INDC MAURITANIA.pdf",
-      "format": "pdf",
-      "path": "data/Mauritania/INDC MAURITANIA.pdf"
-    },
-    {
-      "name": "GUINEA-BISSAU_INDC_Version to the UNFCCC (eng).pdf",
-      "format": "pdf",
-      "path": "data/Guinea/GUINEA-BISSAU_INDC_Version to the UNFCCC (eng).pdf"
-    },
-    {
-      "name": "Document_INDC_CI_22092015.pdf",
-      "format": "pdf",
-      "path": "data/Côte d'Ivoire/Document_INDC_CI_22092015.pdf"
-    },
-    {
-      "name": "INDC BENIN Version finale revue septembre 2015.pdf",
-      "format": "pdf",
-      "path": "data/Benin/INDC BENIN Version finale revue septembre 2015.pdf"
-    },
-    {
-      "name": "Republic of Lebanon - INDC - September 2015.pdf",
-      "format": "pdf",
-      "path": "data/Lebanon/Republic of Lebanon - INDC - September 2015.pdf"
-    },
-    {
-      "name": "150930_Ukraine_INDC.pdf",
-      "format": "pdf",
-      "path": "data/Ukraine/150930_Ukraine_INDC.pdf"
-    },
-    {
-      "name": "CPDN_Republique d'Haiti.pdf",
-      "format": "pdf",
-      "path": "data/Haiti/CPDN_Republique d'Haiti.pdf"
-    },
-    {
-      "name": "Short_STP_INDC _Ingles_30.09.pdf",
-      "format": "pdf",
-      "path": "data/Sao Tome and Principe/Short_STP_INDC _Ingles_30.09.pdf"
-    },
-    {
-      "name": "Gobierno de Guatemala INDC-UNFCCC Sept 2015.pdf",
-      "format": "pdf",
-      "path": "data/Guatemala/Gobierno de Guatemala INDC-UNFCCC Sept 2015.pdf"
-    },
-    {
-      "name": "Israel INDC.pdf",
-      "format": "pdf",
-      "path": "data/Israel/Israel INDC.pdf"
-    },
-    {
-      "name": "Commonwealth of Dominica- Intended Nationally Determined Contributions (INDC).pdf",
-      "format": "pdf",
-      "path": "data/Dominica/Commonwealth of Dominica- Intended Nationally Determined Contributions (INDC).pdf"
-    },
-    {
-      "name": "INDC_Congo_RAPPORT.pdf",
-      "format": "pdf",
-      "path": "data/Congo/INDC_Congo_RAPPORT.pdf"
-    },
-    {
-      "name": "INDC Azerbaijan.pdf",
-      "format": "pdf",
-      "path": "data/Azerbaijan/INDC Azerbaijan.pdf"
-    },
-    {
-      "name": "INDCs_The United Republic of Tanzania.pdf",
-      "format": "pdf",
-      "path": "data/United Republic of Tanzania/INDCs_The United Republic of Tanzania.pdf"
-    },
-    {
-      "name": "Swaziland's INDC.pdf",
-      "format": "pdf",
-      "path": "data/Swaziland/Swaziland's INDC.pdf"
-    },
-    {
-      "name": "FINAL+ZAMBIA'S+INDC_1.pdf",
-      "format": "pdf",
-      "path": "data/Zambia/FINAL+ZAMBIA'S+INDC_1.pdf"
-    },
-    {
-      "name": "INDC of Namibia Final pdf.pdf",
-      "format": "pdf",
-      "path": "data/Namibia/INDC of Namibia Final pdf.pdf"
-    },
-    {
-      "name": "INDC Uruguay español.pdf",
-      "format": "pdf",
-      "path": "data/Uruguay/INDC Uruguay español.pdf"
-    },
-    {
-      "name": "INDC Uruguay (English-unofficial translation).pdf",
-      "format": "pdf",
-      "path": "data/Uruguay/INDC Uruguay (English-unofficial translation).pdf"
-    },
-    {
-      "name": "Verbal_note.pdf",
-      "format": "pdf",
-      "path": "data/Kyrgyzstan/Verbal_note.pdf"
-    },
-    {
-      "name": "Kyrgyzstan INDC _ENG_ final.pdf",
-      "format": "pdf",
-      "path": "data/Kyrgyzstan/Kyrgyzstan INDC _ENG_ final.pdf"
-    },
-    {
-      "name": "Kyrgyzstan INDC_RUS_final.pdf",
-      "format": "pdf",
-      "path": "data/Kyrgyzstan/Kyrgyzstan INDC_RUS_final.pdf"
-    },
-    {
-      "name": "INDC-Armenia.pdf",
-      "format": "pdf",
-      "path": "data/Armenia/INDC-Armenia.pdf"
-    },
-    {
-      "name": "CPDN_MALI_VFsegal.pdf",
-      "format": "pdf",
-      "path": "data/Mali/CPDN_MALI_VFsegal.pdf"
-    },
-    {
-      "name": "VANUATU INDC UNFCCC Submission.pdf",
-      "format": "pdf",
-      "path": "data/Vanuatu/VANUATU INDC UNFCCC Submission.pdf"
-    },
-    {
-      "name": "iNDC Perú castellano.pdf",
-      "format": "pdf",
-      "path": "data/Peru/iNDC Perú castellano.pdf"
-    },
-    {
-      "name": "iNDC Perú english.pdf",
-      "format": "pdf",
-      "path": "data/Peru/iNDC Perú english.pdf"
-    },
-    {
-      "name": "INDC Kz_eng.pdf",
-      "format": "pdf",
-      "path": "data/Kazakhstan/INDC Kz_eng.pdf"
-    },
-    {
-      "name": "Maldives INDC .pdf",
-      "format": "pdf",
-      "path": "data/Maldives/Maldives INDC .pdf"
-    },
-    {
-      "name": "Myanmar's INDC.pdf",
-      "format": "pdf",
-      "path": "data/Myanmar/Myanmar's INDC.pdf"
-    },
-    {
-      "name": "Final INDC for Mauritius 28 Sept 2015.pdf",
-      "format": "pdf",
-      "path": "data/Mauritius/Final INDC for Mauritius 28 Sept 2015.pdf"
-    },
-    {
-      "name": "BRAZIL iNDC english FINAL.pdf",
-      "format": "pdf",
-      "path": "data/Brazil/BRAZIL iNDC english FINAL.pdf"
-    },
-    {
-      "name": "CPDN_République Centrafricaine.pdf",
-      "format": "pdf",
-      "path": "data/Central African Republic/CPDN_République Centrafricaine.pdf"
-    },
-    {
-      "name": "CPDN_République Centrafricaine_EN.pdf",
-      "format": "pdf",
-      "path": "data/Central African Republic/CPDN_République Centrafricaine_EN.pdf"
-    },
-    {
-      "name": "CPDN - Sénégal.pdf",
-      "format": "pdf",
-      "path": "data/Senegal/CPDN - Sénégal.pdf"
-    },
-    {
-      "name": "INDC_KIRIBATI.pdf",
-      "format": "pdf",
-      "path": "data/Kiribati/INDC_KIRIBATI.pdf"
-    },
-    {
-      "name": "INDC_Republic_of_Moldova_25.09.2015.pdf",
-      "format": "pdf",
-      "path": "data/Republic of Moldova/INDC_Republic_of_Moldova_25.09.2015.pdf"
-    },
-    {
-      "name": "South Africa.pdf",
-      "format": "pdf",
-      "path": "data/South Africa/South Africa.pdf"
-    },
-    {
-      "name": "Belarus.pdf",
-      "format": "pdf",
-      "path": "data/Belarus/Belarus.pdf"
-    },
-    {
-      "name": "Belarus_INDC_Rus_25.09.2015.pdf",
-      "format": "pdf",
-      "path": "data/Belarus/Belarus_INDC_Rus_25.09.2015.pdf"
-    },
-    {
-      "name": "Belarus_INDC_Eng_25.09.2015.pdf",
-      "format": "pdf",
-      "path": "data/Belarus/Belarus_INDC_Eng_25.09.2015.pdf"
-    },
-    {
-      "name": "INDC_of_Georgia.pdf",
-      "format": "pdf",
-      "path": "data/Georgia/INDC_of_Georgia.pdf"
-    },
-    {
-      "name": "INDC of Seychelles.pdf",
-      "format": "pdf",
-      "path": "data/Seychelles/INDC of Seychelles.pdf"
-    },
-    {
-      "name": "INDC_2015_of_Bangladesh.pdf",
-      "format": "pdf",
-      "path": "data/Bangladesh/INDC_2015_of_Bangladesh.pdf"
-    },
-    {
-      "name": "ERITREA'S INDC REPORT SEP2015.pdf",
-      "format": "pdf",
-      "path": "data/Eritrea/ERITREA'S INDC REPORT SEP2015.pdf"
-    },
-    {
-      "name": "150924_INDCs of Mongolia.pdf",
-      "format": "pdf",
-      "path": "data/Mongolia/150924_INDCs of Mongolia.pdf"
-    },
-    {
-      "name": "INDC_REPUBLIC OF INDONESIA.pdf",
-      "format": "pdf",
-      "path": "data/Indonesia/INDC_REPUBLIC OF INDONESIA.pdf"
-    },
-    {
-      "name": "Madagascar INDC Eng.pdf",
-      "format": "pdf",
-      "path": "data/Madagascar/Madagascar INDC Eng.pdf"
-    },
-    {
-      "name": "Madagascar INDC(1).pdf",
-      "format": "pdf",
-      "path": "data/Madagascar/Madagascar INDC(1).pdf"
-    },
-    {
-      "name": "Albania_INDC_submission (1).pdf",
-      "format": "pdf",
-      "path": "data/Albania/Albania_INDC_submission (1).pdf"
-    },
-    {
-      "name": "GH_INDC_2392015.pdf",
-      "format": "pdf",
-      "path": "data/Ghana/GH_INDC_2392015.pdf"
-    },
-    {
-      "name": "INDCSubmission_ Montenegro.docx",
-      "format": "docx",
-      "path": "data/Montenegro/INDCSubmission_ Montenegro.docx"
-    },
-    {
-      "name": "República de Guinea Ecuatorial_INDC.doc",
-      "format": "doc",
-      "path": "data/Equatorial Guinea/República de Guinea Ecuatorial_INDC.doc"
-    },
-    {
-      "name": "INDC_Comores_Version_Francaise.pdf",
-      "format": "pdf",
-      "path": "data/Comoros/INDC_Comores_Version_Francaise.pdf"
-    },
-    {
-      "name": "INDC Tunisie VF 5 aout Valid.pdf",
-      "format": "pdf",
-      "path": "data/Tunisia/INDC Tunisie VF 5 aout Valid.pdf"
-    },
-    {
-      "name": "INDC-Tunisia-English Version.pdf",
-      "format": "pdf",
-      "path": "data/Tunisia/INDC-Tunisia-English Version.pdf"
-    },
-    {
-      "name": "INDC Colombia.pdf",
-      "format": "pdf",
-      "path": "data/Colombia/INDC Colombia.pdf"
-    },
-    {
-      "name": "Colombia iNDC Unofficial translation Eng.pdf",
-      "format": "pdf",
-      "path": "data/Colombia/Colombia iNDC Unofficial translation Eng.pdf"
-    },
-    {
-      "name": "INDC-RD Agosto 2015 (español).pdf",
-      "format": "pdf",
-      "path": "data/Dominican Republic/INDC-RD Agosto 2015 (español).pdf"
-    },
-    {
-      "name": "INDC-DR August 2015 (unofficial translation).pdf",
-      "format": "pdf",
-      "path": "data/Dominican Republic/INDC-DR August 2015 (unofficial translation).pdf"
-    },
-    {
-      "name": "CPDN - Rép Dém du Congo.pdf",
-      "format": "pdf",
-      "path": "data/Democratic Republic of the Congo/CPDN - Rép Dém du Congo.pdf"
-    },
-    {
-      "name": "Australias Intended Nationally Determined Contribution to a new Climate Change Agreement - August 2015.pdf",
-      "format": "pdf",
-      "path": "data/Australia/Australias Intended Nationally Determined Contribution to a new Climate Change Agreement - August 2015.pdf"
-    },
-    {
-      "name": "Submission_Republic_of_Macedonia_20150805144001_135181.pdf",
-      "format": "pdf",
-      "path": "data/The former Yugoslav Republic of Macedonia/Submission_Republic_of_Macedonia_20150805144001_135181.pdf"
-    },
-    {
-      "name": "Macedonia_Cover letter.pdf",
-      "format": "pdf",
-      "path": "data/The former Yugoslav Republic of Macedonia/Macedonia_Cover letter.pdf"
-    },
-    {
-      "name": "Contribution nationale Monaco.pdf",
-      "format": "pdf",
-      "path": "data/Monaco/Contribution nationale Monaco.pdf"
-    },
-    {
-      "name": "Monaco_INDC.pdf",
-      "format": "pdf",
-      "path": "data/Monaco/Monaco_INDC.pdf"
-    },
-    {
-      "name": "Kenya_INDC_20150723.pdf",
-      "format": "pdf",
-      "path": "data/Kenya/Kenya_INDC_20150723.pdf"
-    },
-    {
-      "name": "150721 RMI INDC JULY 2015 FINAL SUBMITTED.pdf",
-      "format": "pdf",
-      "path": "data/Marshall Islands/150721 RMI INDC JULY 2015 FINAL SUBMITTED.pdf"
-    },
-    {
-      "name": "20150717_Japan's INDC.pdf",
-      "format": "pdf",
-      "path": "data/Japan/20150717_Japan's INDC.pdf"
-    },
-    {
-      "name": "Singapore INDC.pdf",
-      "format": "pdf",
-      "path": "data/Singapore/Singapore INDC.pdf"
-    },
-    {
-      "name": "INDC Submission by the Republic of Korea on June 30.pdf",
-      "format": "pdf",
-      "path": "data/Republic of Korea/INDC Submission by the Republic of Korea on June 30.pdf"
-    },
-    {
-      "name": "China's INDC - on 30 June 2015.pdf",
-      "format": "pdf",
-      "path": "data/China/China's INDC - on 30 June 2015.pdf"
-    },
-    {
-      "name": "INDC-ICELAND.pdf",
-      "format": "pdf",
-      "path": "data/Iceland/INDC-ICELAND.pdf"
-    },
-    {
-      "name": "Republic_of_Serbia.pdf",
-      "format": "pdf",
-      "path": "data/Serbia/Republic_of_Serbia.pdf"
-    },
-    {
-      "name": "Cover_letter_Serbia.docx",
-      "format": "docx",
-      "path": "data/Serbia/Cover_letter_Serbia.docx"
-    },
-    {
-      "name": "INDC-Ethiopia-100615.pdf",
-      "format": "pdf",
-      "path": "data/Ethiopia/INDC-Ethiopia-100615.pdf"
-    },
-    {
-      "name": "Morocco INDC submitted to UNFCCC - 5 june 2015.pdf",
-      "format": "pdf",
-      "path": "data/Morocco/Morocco INDC submitted to UNFCCC - 5 june 2015.pdf"
-    },
-    {
-      "name": "Maroc CPDN soumise à la CCNUCC - 5 juin 2015.pdf",
-      "format": "pdf",
-      "path": "data/Morocco/Maroc CPDN soumise à la CCNUCC - 5 juin 2015.pdf"
-    },
-    {
-      "name": "INDC - Canada - English.pdf",
-      "format": "pdf",
-      "path": "data/Canada/INDC - Canada - English.pdf"
-    },
-    {
-      "name": "CPDN - Canada - Français.pdf",
-      "format": "pdf",
-      "path": "data/Canada/CPDN - Canada - Français.pdf"
-    },
-    {
-      "name": "Andorra INDC-CPDN.pdf",
-      "format": "pdf",
-      "path": "data/Andorra/Andorra INDC-CPDN.pdf"
-    },
-    {
-      "name": "150422_INDC_FL.pdf",
-      "format": "pdf",
-      "path": "data/Liechtenstein/150422_INDC_FL.pdf"
-    },
-    {
-      "name": "Russian Submission INDC_rus.doc",
-      "format": "doc",
-      "path": "data/Russian Federation/Russian Submission INDC_rus.doc"
-    },
-    {
-      "name": "Russian Submission INDC_eng_rev1.doc",
-      "format": "doc",
-      "path": "data/Russian Federation/Russian Submission INDC_eng_rev1.doc"
-    },
-    {
-      "name": "20150331 INDC Gabon.pdf",
-      "format": "pdf",
-      "path": "data/Gabon/20150331 INDC Gabon.pdf"
-    },
-    {
-      "name": "U.S. Cover Note INDC and Accompanying Information.pdf",
-      "format": "pdf",
-      "path": "data/United States of America/U.S. Cover Note INDC and Accompanying Information.pdf"
-    },
-    {
-      "name": "MEXICO INDC 03.30.2015.pdf",
-      "format": "pdf",
-      "path": "data/Mexico/MEXICO INDC 03.30.2015.pdf"
-    },
-    {
-      "name": "Norway INDC 26MAR2015.pdf",
-      "format": "pdf",
-      "path": "data/Norway/Norway INDC 26MAR2015.pdf"
-    },
-    {
-      "name": "LV-03-06-EU INDC.pdf",
-      "format": "pdf",
-      "path": "data/European Union/LV-03-06-EU INDC.pdf"
-    },
-    {
-      "name": "15 02 27_INDC Contribution of Switzerland.pdf",
-      "format": "pdf",
-      "path": "data/Switzerland/15 02 27_INDC Contribution of Switzerland.pdf"
-    }
-  ],
-  "name": "indcs",
-  "title": "Intended Nationally Determined Contributions (INDCs)",
-  "description": "INDCs are downloaded from the INDC portal and a JSON list with files and submissions dates is created."
+  "name": "indcs"
 }
