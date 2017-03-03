@@ -1,19 +1,23 @@
 {
   "sources": [
     {
-      "name": "UNFCCC website with INDCs as submitted by Parties",
-      "web": "http://www4.unfccc.int/submissions/indc/Submission%20Pages/submissions.aspx"
+      "web": "http://www4.unfccc.int/submissions/indc/Submission%20Pages/submissions.aspx",
+      "name": "UNFCCC website with INDCs as submitted by Parties"
     }
   ],
-  "description": "INDCs are downloaded from the INDC portal and a JSON list with files and submissions dates is created.",
   "title": "Intended Nationally Determined Contributions (INDCs)",
-  "name": "indcs",
+  "description": "INDCs are downloaded from the INDC portal and a JSON list with files and submissions dates is created.",
   "resources": [
     {
-      "mediatype": "text/json",
-      "name": "INDCs",
       "path": "data/indcs.json",
-      "format": "json"
+      "format": "json",
+      "mediatype": "text/json",
+      "name": "INDCs"
+    },
+    {
+      "name": "INDC TL_Final_Scanned_copy20Feb-2017.compressed.pdf",
+      "path": "data/Timor-Leste/INDC TL_Final_Scanned_copy20Feb-2017.compressed.pdf",
+      "format": "pdf"
     },
     {
       "name": "Pak-INDC.pdf",
@@ -1045,5 +1049,6 @@
       "path": "data/Switzerland/15 02 27_INDC Contribution of Switzerland.pdf",
       "format": "pdf"
     }
-  ]
+  ],
+  "name": "indcs"
 }

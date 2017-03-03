@@ -13,6 +13,7 @@ import json
 import os
 import re
 
+from collections import OrderedDict
 from urllib.parse import quote, unquote
 
 import pandas as pd
@@ -83,16 +84,16 @@ for row in rows:
             " ",
             unquote(url.split("/")[-1])
         )
-        files.append({
-            "filename": filename,
-            "url": url
-        })
-    indcs.append({
-      "party": name,
-      "code": code,
-      "submission_date": submission_date,
-      "files": files
-    })
+        files.append(OrderedDict([
+            ("filename", filename),
+            ("url", url)
+        ]))
+    indcs.append(OrderedDict([
+        ("submission_date", submission_date),
+        ("party", name),
+        ("code", code),
+        ("files", files)
+    ]))
 
 resources = [{
     "name": "INDCs",
@@ -102,11 +103,11 @@ resources = [{
 }]
 for indc in indcs:
     for item in indc["files"]:
-        resources.append({
-            "name": item["filename"],
-            "path": "data/" + indc["party"] + "/" + item["filename"],
-            "format": item["filename"].split(".")[-1]
-        })
+        resources.append(OrderedDict([
+            ("name", item["filename"]),
+            ("path", "data/" + indc["party"] + "/" + item["filename"]),
+            ("format", item["filename"].split(".")[-1])
+        ]))
 
 datapackage = json.load(open(datapackage_json, "r"))
 datapackage["resources"] = resources
