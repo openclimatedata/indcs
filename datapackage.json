@@ -6,13 +6,17 @@
     }
   ],
   "title": "Intended Nationally Determined Contributions (INDCs)",
-  "description": "INDCs are downloaded from the INDC portal and a JSON list with files and submissions dates is created.",
   "resources": [
     {
-      "path": "data/indcs.json",
-      "format": "json",
       "mediatype": "text/json",
+      "format": "json",
+      "path": "data/indcs.json",
       "name": "INDCs"
+    },
+    {
+      "name": "INDC Uzbekistan 18-04-2017_Eng_20170419093154_171926.pdf",
+      "path": "data/Uzbekistan/INDC Uzbekistan 18-04-2017_Eng_20170419093154_171926.pdf",
+      "format": "pdf"
     },
     {
       "name": "INDC TL_Final_Scanned_copy20Feb-2017.compressed.pdf",
@@ -1050,5 +1054,6 @@
       "format": "pdf"
     }
   ],
+  "description": "INDCs are downloaded from the INDC portal and a JSON list with files and submissions dates is created.",
   "name": "indcs"
 }
