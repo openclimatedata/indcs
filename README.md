@@ -17,8 +17,8 @@ The saved HTML file is parsed to generate a CSV file with links and submissions
 dates. For convenience all INDCs and accompanying files are downloaded, converted
 to PDF (for .doc, .docx and .xps files) and renamed in the `pdfs` directory..
 
-Python3 and the libraries in `scripts/requirements.txt` are used. It is
-recommended to use a Virtualenv.
+Python3 and the libraries in `scripts/requirements.txt` are used. A Virtualenv
+is created automatically in the Makefile.
 
 Run
 
