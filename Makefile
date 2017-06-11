@@ -1,9 +1,6 @@
-all: venv download-indcs
+all: process
 
-download-indcs: process
-	./venv/bin/python scripts/download.py
-
-process:
+process: venv
 	./venv/bin/python scripts/process.py
 
 venv: scripts/requirements.txt
@@ -14,5 +11,7 @@ venv: scripts/requirements.txt
 
 clean:
 	rm -rf data/*
+	rm -rf cache/*
+	rm -rf pdfs/*
 
-.PHONY: clean process download-indcs
+.PHONY: clean process
