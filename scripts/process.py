@@ -193,5 +193,5 @@ for row in rows:
     print("====")
 
 df = pd.DataFrame(indcs)
-df = df.sort_values("ISO3")
+df = df.sort_values(["Party", "FileType"])
 df.to_csv(os.path.join(data_dir, "indcs.csv"), index=False)
