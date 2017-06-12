@@ -5,15 +5,61 @@
       "name": "UNFCCC website with INDCs as submitted by Parties"
     }
   ],
-  "title": "Intended Nationally Determined Contributions (INDCs)",
   "resources": [
     {
-      "mediatype": "text/json",
-      "format": "json",
-      "path": "data/indcs.json",
-      "name": "INDCs"
-    },
+      "name": "indcs",
+      "path": "data/indcs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 47014,
+      "schema": {
+        "fields": [
+          {
+            "name": "ISO3",
+            "type": "string",
+            "description": "ISO3 code of Party, EUU for European Union"
+          },
+          {
+            "name": "Party",
+            "type": "string",
+            "description": "Name of Party"
+          },
+          {
+            "name": "FileType",
+            "type": "string",
+            "description": "Kind of document"
+          },
+          {
+            "name": "Language",
+            "type": "string",
+            "description": "Document language"
+          },
+          {
+            "name": "Filename",
+            "type": "string",
+            "description": "Unified filename"
+          },
+          {
+            "name": "SubmissionDate",
+            "type": "datetime",
+            "description": "Date of submission"
+          },
+          {
+            "name": "EncodedAbsUrl",
+            "type": "string",
+            "description": "URL of original document"
+          },
+          {
+            "name": "OriginalFilename",
+            "type": "string",
+            "description": "Full name of original document"
+          }
+        ]
+      }
+    }
   ],
-  "description": "INDCs are downloaded from the INDC portal and a CSV list with files and submissions dates is created.",
-  "name": "indcs"
+  "name": "indcs",
+  "title": "Intended Nationally Determined Contributions (INDCs)",
+  "description": "Files with Intended Nationally Determined Contributions (INDCs) and submission",
+  "repository": "git://github.com/openclimatedata/indcs.git"
 }
