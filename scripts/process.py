@@ -144,6 +144,8 @@ for row in rows:
             file_type = "Addendum"
         elif filename == "Liberia_INDC Submission.002.pdf":
             file_type = "Addendum"
+        elif filename.startswith("Sierra Leone INDC Submission to UNFCCC"):
+            file_type = "Addendum"
         else:
             file_type = "INDC"
         print("{} : {} ({}) : {}".format(name, file_type, language, filename))
@@ -196,4 +198,7 @@ for row in rows:
 
 df = pd.DataFrame(indcs)
 df = df.sort_values(["Party", "FileType"])
+
+assert(len(df.Filename.unique()) == len(df.Filename))
 df.to_csv(os.path.join(data_dir, "indcs.csv"), index=False)
+
