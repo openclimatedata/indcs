@@ -142,6 +142,8 @@ for row in rows:
             file_type = "Translation"
         elif filename == "Belarus.pdf":
             file_type = "Addendum"
+        elif filename == "Liberia_INDC Submission.002.pdf":
+            file_type = "Addendum"
         else:
             file_type = "INDC"
         print("{} : {} ({}) : {}".format(name, file_type, language, filename))
