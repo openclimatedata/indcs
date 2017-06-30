@@ -52,7 +52,7 @@ for row in rows:
     # < row >< party >< submission data >< table with links >< row >
     if len(cells) == 1:
         continue
-    party = cells[0].text.strip()
+    party = cells[0].text.strip().replace(u"\u200b", "")
     if " - " in party:
         name = party.split(" - ")[0].strip()
     elif " The " in party:
