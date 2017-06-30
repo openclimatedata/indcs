@@ -149,10 +149,6 @@ for row in rows:
         else:
             file_type = "INDC"
         print("{} : {} ({}) : {}".format(name, file_type, language, filename))
-        if file_type == "Translation":
-            file_type = "INDC_Translation"
-        elif file_type == "Addendum":
-            file_type = "INDC_Addendum"
 
         clean_filename = "{}_{}_{}_{}.pdf".format(
             code,
@@ -160,6 +156,14 @@ for row in rows:
             file_type,
             language
         )
+        if file_type == "Translation":
+            clean_filename = clean_filename.replace(
+                "Translation", "INDC_Translation")
+        elif file_type == "Addendum":
+            clean_filename = clean_filename.replace(
+                "Addendum", "INDC_Addendum")
+
+
         clean_filepath = os.path.join(pdfs_dir, clean_filename)
 
         indcs.append(OrderedDict([
