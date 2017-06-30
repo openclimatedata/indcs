@@ -149,6 +149,11 @@ for row in rows:
         else:
             file_type = "INDC"
         print("{} : {} ({}) : {}".format(name, file_type, language, filename))
+        if file_type == "Translation":
+            file_type = "INDC_Translation"
+        elif file_type == "Addendum":
+            file_type = "INDC_Addendum"
+
         clean_filename = "{}_{}_{}_{}.pdf".format(
             code,
             normalize(name, lowercase=False).replace(" ", "-"),
