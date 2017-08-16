@@ -33,7 +33,7 @@ A couple of Python libraries have further dependencies.
 
 MacOS:
 
-    brew antiword icu4c libgxps
+    brew antiword icu4c libgxps poppler unrtf tesseract swig poppler
 
 `icu4c` may require explicit linking:
 
