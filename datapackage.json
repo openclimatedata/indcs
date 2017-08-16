@@ -11,11 +11,10 @@
       "path": "data/indcs.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 47014,
       "schema": {
         "fields": [
           {
-            "name": "ISO3",
+            "name": "Code",
             "type": "string",
             "description": "ISO3 code of Party, EUU for European Union"
           },

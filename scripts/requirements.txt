@@ -1,3 +1,4 @@
+wheel
 pandas
 bs4
 lxml
@@ -7,4 +8,4 @@ pycld2
 PyICU
 normality
 delegator.py
-countrynames
+git+git://github.com/occrp/countrynames.git

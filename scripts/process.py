@@ -25,22 +25,23 @@ import textract
 
 from bs4 import BeautifulSoup
 from normality import normalize
+from pathlib import Path
 from polyglot.detect import Detector
 from polyglot.detect.base import UnknownLanguage
 
-path = os.path.dirname(os.path.realpath(__file__))
-indc_table = os.path.join(path, "../archive/INDC - Submissions.html")
-data_dir = os.path.join(path, "../data/")
-pdfs_dir = os.path.join(path, "../pdfs/")
-cache_dir = os.path.join(path, "../cache/")
+root = Path(__file__).parents[1]
+indc_table = root / "archive/INDC - Submissions.html"
+data_dir = root / "data"
+pdfs_dir = root / "pdfs"
+cache_dir = root / "cache"
 
-if not os.path.exists(cache_dir):
-    os.makedirs(cache_dir)
+if not cache_dir.exists():
+    cache_dir.mkdir()
 
-if not os.path.exists(pdfs_dir):
-    os.makedirs(pdfs_dir)
+if not pdfs_dir.exists():
+    pdfs_dir.exists()
 
-soup = BeautifulSoup(open(indc_table), "lxml")
+soup = BeautifulSoup(open(str(indc_table), "r"), "lxml")
 
 rows = soup.findAll("tr", {"class": "soby_griddatarow"})
 
@@ -61,7 +62,7 @@ for row in rows:
         name = party.split(" on behalf")[0].strip()
     else:
         name = party
-    code = countrynames.to_alpha_3(name)
+    code = countrynames.to_alpha_3(name, fuzzy=True)
     if "Latvia" in party:
         name = "European Union"
         code = "EUU"
@@ -83,7 +84,7 @@ for row in rows:
             ("filename", filename),
             ("url", url)
         ]))
-        if not os.path.exists(os.path.join(cache_dir, filename)):
+        if not (cache_dir / filename).exists():
             print("Fetching: ", filename)
             urllib.request.urlretrieve(url, os.path.join(cache_dir, filename))
 
@@ -111,10 +112,10 @@ for row in rows:
     for f in files:
         filename = f["filename"]
         url = f["url"]
-        filepath = os.path.join(cache_dir, filename)
+        filepath = cache_dir / filename
         language = None
         try:
-            text = textract.process(filepath)
+            text = textract.process(str(filepath))
             lang = Detector(text.decode("UTF-8"))
             if lang:
                 language = lang.language.name
@@ -163,11 +164,10 @@ for row in rows:
             clean_filename = clean_filename.replace(
                 "Addendum", "INDC_Addendum")
 
-
-        clean_filepath = os.path.join(pdfs_dir, clean_filename)
+        clean_filepath = pdfs_dir / clean_filename
 
         indcs.append(OrderedDict([
-            ("ISO3", code),
+            ("Code", code),
             ("Party", name),
             ("FileType", file_type),
             ("Language", language),
@@ -177,26 +177,26 @@ for row in rows:
             ("OriginalFilename", filename),
         ]))
 
-        if not os.path.exists(clean_filepath):
-            if filename.endswith(".pdf"):
-                copyfile(os.path.join(cache_dir, filename), clean_filepath)
-            elif filename.endswith(".doc") or filename.endswith(".docx"):
+        if not clean_filepath.exists():
+            if filename.suffix == ".pdf":
+                copyfile(str(cache_dir / filename), str(clean_filepath))
+            elif (filename.suffix == ".doc") or (filename.suffix == ".docx"):
                 command = ("libreoffice --convert-to 'pdf' " +
                            "--nolockcheck " +
                            "--headless " +
                            "--outdir {} " +
                            "'{}'").format(
-                    cache_dir, os.path.join(cache_dir, filename))
+                    cache_dir, str(cache_dir / filename))
                 print(command)
                 c = delegator.run(command)
                 print(c.out)
-                pdf_version = filename.split(".")[0] + ".pdf"
-                copyfile(os.path.join(cache_dir, pdf_version), clean_filepath)
-            elif filename.endswith(".xps"):
-                pdf_version = filename.split(".")[0] + ".pdf"
+                pdf_version = filename.stem + ".pdf"
+                copyfile(str(cache_dir / pdf_version), str(clean_filepath))
+            elif filename.suffix == ".xps":
+                pdf_version = filename.stem + ".pdf"
                 command = "xpstopdf '{}' '{}'".format(
-                    os.path.join(cache_dir, filename),
-                    os.path.join(cache_dir, pdf_version)
+                    str(cache_dir / filename),
+                    str(cache_dir / pdf_version)
                 )
                 print(command)
                 c = delegator.run(command)
@@ -209,5 +209,4 @@ df = pd.DataFrame(indcs)
 df = df.sort_values(["Party", "FileType"])
 
 assert(len(df.Filename.unique()) == len(df.Filename))
-df.to_csv(os.path.join(data_dir, "indcs.csv"), index=False)
-
+df.to_csv(str(data_dir / "indcs.csv"), index=False)
