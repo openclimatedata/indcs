@@ -59,6 +59,6 @@
   ],
   "name": "indcs",
   "title": "Intended Nationally Determined Contributions (INDCs)",
-  "description": "Files with Intended Nationally Determined Contributions (INDCs) and submission dates",
+  "description": "Data Package of Intended Nationally Determined Contributions (INDCs)",
   "repository": "git://github.com/openclimatedata/indcs.git"
 }
