@@ -41,7 +41,8 @@
           {
             "name": "SubmissionDate",
             "type": "datetime",
-            "description": "Date of submission"
+            "description": "Date of submission",
+            "format": "%Y-%m-%d %H:%M:%S"
           },
           {
             "name": "EncodedAbsUrl",
