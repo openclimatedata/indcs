@@ -2,7 +2,7 @@
   "sources": [
     {
       "web": "http://www4.unfccc.int/submissions/indc/Submission%20Pages/submissions.aspx",
-      "name": "UNFCCC website with INDCs as submitted by Parties"
+      "title": "UNFCCC website with INDCs as submitted by Parties"
     }
   ],
   "resources": [
